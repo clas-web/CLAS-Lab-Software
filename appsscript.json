@@ -1,0 +1,17 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Drive",
+      "serviceId": "drive",
+      "version": "v2"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "sheets": {
+    "macros": [{
+      "menuName": "Copy + Paster A:C to \"Old\" Sheet",
+      "functionName": "myFunction"
+    }]
+  }
+}
